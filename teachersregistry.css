@@ -1,0 +1,84 @@
+#form{
+
+text-align: left;
+font-size:25px;
+font-family: sans-serif;
+padding: 10px;
+text-align: center;
+color: white;
+font-style: oblique;
+border: 10px dashed orange;
+}
+#heading{
+	font-size: 5em;
+	text-decoration: underline;
+	text-decoration-color: black;
+	text-decoration-line: 10px;
+	color:white; 
+
+}
+body{
+	background: rgb(1,91,130);
+background: radial-gradient(circle, rgba(1,91,130,1) 0%, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+}
+#dept{
+
+width: 150px;
+height: 25px;
+
+}
+#name{
+width: 150px;
+height: 25px;
+
+}
+
+
+#div1{
+
+border: 10px solid red;
+font-style: oblique;
+font-family: sans-serif;
+font-size: 20px;
+padding: 10px;
+text-align: center;
+color:black;
+}
+nav{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  
+  
+  }
+
+button{
+
+background-color: yellow;
+font-size: 20px;
+color: brown;
+border: 5px solid red;
+border-radius: 5px;
+font-style: oblique;
+font-weight: 5000px;
+width: 150px;
+height: 70px;
+
+
+
+}
+
+
+button:hover{
+
+	transform: scale(1.2);
+
+
+
+}
+#div1:hover{
+
+transform: scale(1);
+color:white;
+}

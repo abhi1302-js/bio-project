@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<p align=center id="heading">Bio&nbsp;degradable&nbsp;Plastics</p>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+    <p>
+<nav id="nav">
+	<a id="intro" >Introduction</a>  |   
+	<a id="teachers" >Teachers</a>  |
+	<a id="students" >Students</a>  |
+	<a id="admin" >Administrative Staff</a>  |
+	
+	<a id="supp" >Suporting staff</a>  
+</nav>
+<br><br><br>	<title>bio-project</title>
+</head>
+
+<body>
+<link rel="stylesheet" type="text/css" href="teachersregistry.css">
+<div id="form">
+	<form action="mailto:brosfrank444@gmail.com" method="post">
+		<p>Name: <input type="text" name="name" id="name" minlength="5" maxlength="200" required placeholder="eg: Abhishekh J.S"> </p>
+		<p>Department of     <select id="dept" name="Department">
+		<option selected disabled > your dept.</option>  
+			<option>Mathematics</option>
+			<option>Science</option>
+			<option>Social Science</option>
+			<option>English</option>
+			<option>Second Language</option>
+			<option>Kindergarten</option>
+
+		</select></p>
+
+    <button type="button" id="button">CONTINUE</button>
+        <br>
+        <br>    
+        	</form>
+</div>
+<div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	
+			$("#teachers").click(function(){
+				location.replace("teachers register.html");
+			});
+			$("#intro").click(function(){
+				location.replace("index.html");
+	
+			});
+			$("#students").click(function(){
+				 location.replace("students register.html");
+				});
+			$("#Administrative Staff").click(function(){
+				 location.replace();
+				});
+	
+	
+			$("#Supporting Staff").click(function(){
+				 location.replace();
+				});
+		});
+		
+	</script>
+</body>
+</html>

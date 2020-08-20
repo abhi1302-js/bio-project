@@ -1,0 +1,65 @@
+#form{
+
+    text-align: left;
+    font-size:25px;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    border: 10px dashed orange;
+    }
+    nav{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    
+    
+    }
+    body{
+        background: rgb(1,91,130);
+    background: radial-gradient(circle, rgba(1,91,130,1) 0%, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    }
+    #heading{
+        font-size: 5em;
+        text-decoration: underline;
+        text-decoration-color: black;
+        text-decoration-line: 10px;
+        color:white; 
+    
+    }
+    #name{
+        width: 150px;
+        height: 25px;
+        
+        }
+        #class-section{
+
+            width: 150px;
+            height: 25px;
+            
+            }
+            button{
+
+                background-color: yellow;
+                font-size: 20px;
+                color: brown;
+                border: 5px solid red;
+                border-radius: 5px;
+                font-style: oblique;
+                font-weight: 5000px;
+                width: 150px;
+                height: 70px;
+                
+                
+                
+                }
+                button:hover{
+                    transform: scale(1.2);
+                    opacity: 50%;
+
+
+
+
+                }

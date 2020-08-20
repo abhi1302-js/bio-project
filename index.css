@@ -1,0 +1,109 @@
+#form{
+
+text-align: left;
+font-size:25px;
+font-family: sans-serif;
+padding: 10px;
+text-align: center;
+color: white;
+font-style: oblique;
+border: 10px dashed orange;
+}
+nav{
+font-size: 20px;
+font-family: sans-serif;
+text-align: center;
+color: white;
+
+
+}
+body{
+	background: rgb(1,91,130);
+background: radial-gradient(circle, rgba(1,91,130,1) 0%, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+}
+#heading{
+	font-size: 5em;
+	text-decoration: underline;
+	text-decoration-color: black;
+	text-decoration-line: 10px;
+	color:white; 
+
+}
+#heading:hover{
+opacity: 60%;
+
+
+
+
+}
+#div1{
+
+border: 10px solid red;
+font-style: oblique;
+font-family: sans-serif;
+font-size: 20px;
+padding: 10px;
+text-align: center;
+color:black;
+}
+#anime {
+  
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+}
+
+@keyframes example {
+
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:green; left:1220px; top:0px;}
+  50%  {background-color:yellow; left:0px; top:0px;}
+  75%  {background-color:green; left:0px; top:0px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+button{
+
+background-color: yellow;
+font-size: 20px;
+color: brown;
+border: 5px solid red;
+border-radius: 5px;
+font-style: oblique;
+font-weight: 5000px;
+width: 150px;
+height: 70px;
+
+
+
+}
+
+
+button:hover{
+
+	transform: scale(1.2);
+
+
+
+}
+#div1:hover{
+
+transform: scale(1);
+color:white;
+
+
+
+
+
+}
+#designation{
+
+width: 150px;
+height:35px 
+
+
+
+}
