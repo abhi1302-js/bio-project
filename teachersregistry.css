@@ -52,6 +52,10 @@ nav{
   
   
   }
+  nav:hover{
+	cursor: pointer;
+	
+	}
 
 button{
 
