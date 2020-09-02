@@ -17,6 +17,12 @@ color: white;
 margin: 10px 40px 10px 40px;
 
 
+
+}
+ul{
+display: inline;
+
+
 }
 nav:hover{
 cursor: pointer;
@@ -27,12 +33,14 @@ body{
 background: radial-gradient(circle, rgba(1,91,130,1) 0%, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
 }
 h1{
-	font-size: 5em;
+	font-size: 4em;
 	text-decoration: underline;
 	text-decoration-color: black;
 	text-decoration-line: 10px;
   color:white; 
   font-family: 'Oxygen', sans-serif;
+  display: inline;
+  
 
 }
 #heading:hover{
