@@ -19,6 +19,7 @@
     #intext{
     height: 20px;
     width: 150px;
+    border-radius: 5px;
 
     }
     h1{
@@ -32,10 +33,19 @@
       
     
     }
-    nav:hover{
+    #home:hover{
         cursor: pointer;
         
         }
+    #login:hover{
+        cursor: pointer;
+
+
+    }
+    #about:hover{
+        cursor: pointer;
+
+    }
     body{
         background: rgb(124, 173, 182);
    
@@ -59,12 +69,12 @@
                 background-color: yellow;
                 font-size: 20px;
                 color: brown;
-                border: 5px solid red;
+                border: 2px solid red;
                 border-radius: 5px;
                 font-style: oblique;
                 font-weight: 5000px;
-                width: 150px;
-                height: 70px;
+                width: 100px;
+                height: 40px;
                
                 
                 
