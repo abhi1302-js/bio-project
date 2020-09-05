@@ -47,16 +47,10 @@
     }
     #name{
         width: 150px;
-        height: 25px;
+        height: 20px;
         
-        }
-        #class-section{
-
-            width: 150px;
-            height: 25px;
-            
-            }
-            button{
+    }            
+    button{
 
                 background-color: yellow;
                 font-size: 20px;
@@ -67,6 +61,7 @@
                 font-weight: 5000px;
                 width: 150px;
                 height: 70px;
+               
                 
                 
                 
@@ -79,3 +74,21 @@
 
 
                 }
+                select{
+                    height: 20px;
+                    width: 170px;
+
+
+
+
+
+                }
+                option{
+                    height: 20px;
+                    width: 150px;
+
+
+
+
+                }
+                

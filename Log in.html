@@ -26,21 +26,55 @@
 
 </head>
 <body>
+	<form>
 	<div id="form">
 	<p>Your Name :  <input type="text" maxlength="200" minlength="5" placeholder="eg:Abhishekh J.S" required id="name"></p>
 	<p>Your Administration no. :  <input type="text" maxlength="7" minlength="1" placeholder="eg:257 / emp234" required></p>
 	<p>Your Designation :  <select>
-		<option selected disabled></option>
-		<option>Students</option>
+		<option selected>Students</option>
 		<option>Teaching Staff</option>
-		<option>Administrative Staff</option>
+				<option>Administrative Staff</option>
 		<option>Principal</option>
 		<option>Acadamic Co-ordinator</option>
 	</select> </p>
-	</div>
+	<p>Your Class :  <select>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+	</select>& Section:  <select>
+							<option>A</option>
+							<option>B</option>
+							<option>C</option>
+							<option>D</option>
+							<option>E</option>
+							</select></p>
+<p>Department of     <select id="dept" name="Department">
+    <option selected disabled > your dept.</option>  
+	<option>Mathematics</option>
+	<option>Science</option>
+	<option>Social Science</option>
+	<option>English</option>
+	<option>Second Language</option>
+	<option>Kindergarten</option>
+	</select></p>
+	
+
+
+    </div>
+	
 	
 <button type="button" id="continue">Log in</button>
-</div> 
+</div>
+</form> 
 <script type="text/javascript">
 	$(document).ready(function(){
 
