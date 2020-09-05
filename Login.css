@@ -16,6 +16,11 @@
     
     
     }
+    #intext{
+    height: 20px;
+    width: 150px;
+
+    }
     h1{
         font-size: 4em;
         text-decoration: underline;
