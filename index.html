@@ -11,21 +11,21 @@
 	<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
   integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
   crossorigin="anonymous"></script>
-  <header>
-      <p>
-		<h1 align='left'>Bio&nbsp;degradable&nbsp;Plastics</h1>
+  <div id="header">
+  <head id="head">
+      
+<img src="heading.jpg" width="500px" height="auto">
 <nav id="nav" role="banner">
-	
-    <a id="home" >Home</a>  |   
-	<a id="login" >Log in</a>  | 
-	<a id="about" >About</a>  
+	<ul>	
+    <li><a id="home" href="index.html">Home   </a></li>   
+	<li><a id="login" href="Log in.html" >Log-in   </a></li>  
+	<li><a id="about" href="About.html">About   </a></li>
+	</ul>  
 
 </nav>
-</p>
-<br><br><br>
-  </header>
-
-
+  </head>
+  </div>
+  <br><br><br><br><br><br><br>
 </head>
 <body >
 
@@ -37,40 +37,8 @@
 <p>Click 'NEXT' to continue</p>
 <button type="button" id="next">NEXT</button>
 </div>
-<div id="animation">
-</div>
-<br><br>
-<script type="text/javascript">
-	$(document).ready(function(){
-
-		$("#login").click(function(){
-			location.replace("Log in.html");
-		});
-		$("#home").click(function(){
-			location.replace("index.html");
-
-		});
-		$("#about").click(function(){
-			 location.replace("About.html");
-			});
-		$("#next").click(function(){
-             location.replace("Log in.html")
-
-		});
-		
-	});
-	
-</script>
-
-
-
-
-
-
-<br><br>
-
-
 
 <script src="js/script.js" type="text/javascript"></script>
+
 </body>
 </html>

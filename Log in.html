@@ -28,16 +28,16 @@
 <body>
 	<form>
 	<div id="form">
-	<p>Your Name :  <input id="intext" type="text" maxlength="200" minlength="5" placeholder="eg:Abhishekh J.S" required id="name"></p>
-	<p>Your Administration no :  <input id="intext" type="text" maxlength="7" minlength="1" placeholder="eg:257 / emp234" required></p>
-	<p>Your Designation :  <select>
+	<p>Name :  <input class="name" id="intext" type="text" maxlength="200" minlength="5" placeholder="eg:Abhishekh J.S" required id="name"></p>
+	<p>Administration no :  <input id="intext" type="text" maxlength="7" minlength="1" placeholder="eg:257 / emp234" required></p>
+	<p>Designation :  <select>
 		<option selected>Students</option>
 		<option>Teaching Staff</option>
 		<option>Administrative Staff</option>
 		<option>Principal</option>
 		<option>Acadamic Co-ordinator</option>
 	</select> </p>
-	<p>Your Class :  <select>
+	<p>Class :  <select class="class">
 		<option>1</option>
 		<option>2</option>
 		<option>3</option>
@@ -50,13 +50,14 @@
 		<option>10</option>
 		<option>11</option>
 		<option>12</option>
-	</select> & Section:  <select>
+	</select> & Section:  <select class="section" onblur="test();">
 							<option>A</option>
 							<option>B</option>
 							<option>C</option>
 							<option>D</option>
 							<option>E</option>
 							</select></p>
+<p>E-mail : <input id="intext" type="email" placeholder="someone@gmail.com"></p>
 <p>Department of     <select id="dept" name="Department">
     <option selected disabled > your dept.</option>  
 	<option>Mathematics</option>
@@ -66,17 +67,19 @@
 	<option>Second Language</option>
 	<option>Kindergarten</option>
 	</select></p>
+<p>Date of Birth <input type="date"><p>
+<p>Qualifications : <input id="intext" type="text"></p>
 	
 
 
     </div>
 	
 	
-<button type="button" id="continue">Log in</button>
+<button type="button" id="continue" onclick="test();">Log in</button>
 </div>
 </form> 
 <script type="text/javascript">
-	$(document).ready(function(){
+	/*$(document).ready(function(){
 
 		$("#teachers").click(function(){
 			location.replace("teachers register.html");
@@ -104,6 +107,7 @@
 	});
 	
 </script>
+<script type="text/javascript" src="script.js"></script>
     
 
 

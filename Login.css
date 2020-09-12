@@ -7,6 +7,7 @@
     text-align: left;
     color: rgb(0, 0, 0);
     font-style: initial;
+    
     }
     nav{
     font-size: 30px;
@@ -47,7 +48,7 @@
 
     }
     body{
-        background: rgb(124, 173, 182);
+        background: rgb(96, 197, 214);
    
     }
     #heading{
@@ -66,10 +67,9 @@
     }            
     button{
 
-                background-color: yellow;
+                background-color: rgb(221, 31, 31);
                 font-size: 20px;
-                color: brown;
-                border: 2px solid red;
+                color: rgb(224, 235, 223);
                 border-radius: 5px;
                 font-style: oblique;
                 font-weight: 5000px;

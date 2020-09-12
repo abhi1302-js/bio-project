@@ -9,13 +9,27 @@ color: white;
 font-style: oblique;
 border: 10px dashed orange;
 }
-nav{
-font-size: 30px;
-font-family: sans-serif;
-text-align: right;
-color: white;
-margin: 10px 40px 10px 40px;
+#head{
+	background-color: white;
+}
 
+nav ul li{
+	list-style-type: none;
+	font-size: 29px;
+    font-family: sans-serif;
+    float: right;
+    color: greenyellow;
+	padding: 10px;
+	margin: 10px,5px,10px,5px;
+	vertical-align: middle;
+	text-decoration: wavy;
+	
+
+}
+img{
+
+float: left;
+margin-bottom: 5px;
 
 
 }
@@ -26,26 +40,10 @@ cursor: pointer;
 }
 body{
 	background: rgb(1,91,130);
-background: radial-gradient(circle, rgba(1,91,130,1) 0%, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgba(1,91,130,1) 0%, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
 }
-h1{
-	font-size: 4em;
-	text-decoration: underline;
-	text-decoration-color: black;
-	text-decoration-line: 10px;
-  color:white; 
-  font-family: 'Oxygen', sans-serif;
-  display: inline;
-  
-
-}
-#heading:hover{
-opacity: 60%;
 
 
-
-
-}
 #div1{
 
 border: 10px solid red;
