@@ -45,9 +45,9 @@ background-color: f3f2f1;
 
 #div1{
 
-border: 5px solid purple;
+border: 5px solid rgba(128, 0, 128, 0.733);
 border-radius: 5px;
-box-shadow: 5px 10px palevioletred;
+box-shadow: 5px 10px rgba(216, 112, 147, 0.678);
 font-weight: bold;
 font-family: sans-serif;
 font-size: 20px;

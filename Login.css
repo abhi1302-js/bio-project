@@ -1,11 +1,10 @@
     nav ul li{
 	list-style-type: none;
-	font-size: 30px;
+	font-size: 40px;
     font-family: sans-serif;
     float: right;
-    color: greenyellow;
-	padding: 10px;
-	margin: 10px,5px,10px,5px;
+    margin-left: 10px;
+    margin-right: 10px;
 	vertical-align: middle;
 
     }
@@ -21,17 +20,16 @@
         font-family: 'Oxygen', sans-serif;   
     
     }
-    #home:hover{
-        cursor: pointer;
-        
-        }
-    #login:hover{
-        cursor: pointer;
+    #nav{
+color: yellowgreen;
+text-decoration: none;
+
 
 
     }
-    #about:hover{
-        cursor: pointer;
+    #nav:hover{
+text-decoration: underline;
+
 
     }
     body{
@@ -92,7 +90,7 @@
              text-align: left;
              color: rgb(0, 0, 0);
              font-style: oblique;
-             padding-right: 15px;
+             
         
             }
         .school_staff{
