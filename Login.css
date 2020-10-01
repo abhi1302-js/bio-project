@@ -1,10 +1,13 @@
-    nav{
-    font-size: 30px;
+    nav ul li{
+	list-style-type: none;
+	font-size: 30px;
     font-family: sans-serif;
-    text-align: right;
-    color: white;
-    
-    
+    float: right;
+    color: greenyellow;
+	padding: 10px;
+	margin: 10px,5px,10px,5px;
+	vertical-align: middle;
+
     }
     #intext{
     height: 20px;
@@ -13,14 +16,9 @@
 
     }
     h1{
-        font-size: 4em;
-        text-decoration: underline;
-        text-decoration-color: black;
-        text-decoration-line: 10px;
-      color:white; 
-      font-family: 'Oxygen', sans-serif;
-      display: inline;
-      
+        font-size: 2em;
+        color:rgb(197, 87, 23); 
+        font-family: 'Oxygen', sans-serif;   
     
     }
     #home:hover{
@@ -37,7 +35,7 @@
 
     }
     body{
-        background: rgb(96, 197, 214);
+        background-color:f3f2f1;
    
     }
     #heading{
@@ -56,66 +54,59 @@
     }            
     button{
 
-                background-color: rgb(221, 31, 31);
-                font-size: 20px;
-                color: rgb(224, 235, 223);
-                border-radius: 5px;
-                font-style: oblique;
-                font-weight: 5000px;
-                width: 100px;
-                height: 40px;
-               
+         background-color: rgb(221, 31, 31);
+         font-size: 20px;
+         color: rgb(206, 101, 216);
+         border-radius: 5px;
+         font-style: oblique;
+         font-weight: 5000px;
+         width: 100px;
+         height: 40px;
+           
                 
                 
-                
-                }
-                button:hover{
-                    transform: scale(1.2);
-                    opacity: 50%;
+        }
+        button:hover{
+             transform: scale(1.2);
+             opacity: 50%;
 
+        }
+        select{
+             height: 25px;
+             width: 170px;
+             border-radius: 5px;
 
+        }
+        option{
+             height: 20px;
+             width: 150px;
 
-
-                }
-                select{
-                    height: 25px;
-                    width: 170px;
-                    border-radius: 5px;
-
-
-
-
-
-                }
-                option{
-                    height: 20px;
-                    width: 150px;
-
-
-
-
-                }
-                .students{
-                    float: left;
-                    border: 5px solid brown;
-                    text-align: left;
-                    font-size:25px;
-                    font-family: sans-serif;
-                    padding: 10px;
-                    text-align: left;
-                    color: rgb(0, 0, 0);
-                    font-style: oblique;
-                    padding-right: 15px;
-                }
-                .school_staff{
-                    float: left;
-                    border: 5px solid brown;
-                    text-align: left;
-                    font-size:25px;
-                    font-family: sans-serif;
-                    padding: 10px;
-                    text-align: left;
-                    color: rgb(0, 0, 0);
-                    font-style: oblique;
-                }            
+        }
+        .students{
+             float: left;
+             border: 5px solid brown;
+             text-align: left;
+             font-size:25px;
+             font-family: sans-serif;
+             padding: 10px;
+             text-align: left;
+             color: rgb(0, 0, 0);
+             font-style: oblique;
+             padding-right: 15px;
+        
+            }
+        .school_staff{
+             float: left;
+             border: 5px solid brown;
+             text-align: left;
+             font-size:25px;
+             font-family: sans-serif;
+             padding: 10px;
+             text-align: left;
+             color: rgb(0, 0, 0);
+             font-style: oblique;
+        
+            } 
+            
+                           
                 
