@@ -5,7 +5,8 @@
     float: right;
     margin-left: 10px;
     margin-right: 10px;
-	vertical-align: middle;
+    vertical-align: middle;
+    padding: 10px;
 
     }
     #intext{
@@ -53,17 +54,21 @@ text-decoration: underline;
     button{
 
          background-color: rgb(221, 31, 31);
-         font-size: 20px;
+         font-size: 29px;
+         text-decoration: none;
          color: rgb(206, 101, 216);
          border-radius: 5px;
          font-style: oblique;
          font-weight: 5000px;
-         width: 100px;
-         height: 40px;
+         width: 150px;
+         height: 70px;
+         position: relative;
+         margin-left:auto;margin-right:auto;
+         display:block;
+         margin-top:0%;
+         margin-bottom:0%"
            
-                
-                
-        }
+    }
         button:hover{
              transform: scale(1.2);
              opacity: 50%;
@@ -80,6 +85,10 @@ text-decoration: underline;
              width: 150px;
 
         }
+        #experience{
+             height: 15px;
+             width: 30px;
+        }
         .students{
              float: left;
              border: 5px solid brown;
@@ -94,7 +103,7 @@ text-decoration: underline;
         
             }
         .school_staff{
-             float: left;
+             float: right;
              border: 5px solid brown;
              text-align: left;
              font-size:25px;
@@ -105,6 +114,12 @@ text-decoration: underline;
              font-style: oblique;
         
             } 
-            
+            head{
+             background-color: burlywood;
+
+            }
+            #continue{
+            text-align: center;
+            }
                            
                 
